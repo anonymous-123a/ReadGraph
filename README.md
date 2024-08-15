@@ -29,15 +29,15 @@ NVIDIA A40 48G GPU
 
 ### Digg
 
-This dataset can be obtained from the paper [1] and includes users and the stories they create, with nodes representing both users and stories. Edges between users indicate following relationships, while edges between users and stories represent voting interactions. We select the meta-paths "USU", and "UU", where 'U' denotes a user and 'S' denotes a story. The relationships include 'following' and 'voting,' along with their respective inverse relationships.
+This dataset can be obtained from the paper [1]. It includes users and the stories they create, with nodes representing both users and stories. Edges between users indicate following relationships, while edges between users and stories represent voting interactions. We select the meta-paths "USU", and "UU", where 'U' denotes a user and 'S' denotes a story. The relationships include 'following' and 'voting,' along with their respective inverse relationships.
 
 ## Yelp 
 
-This dataset can be obtained from the url[2] and captures user reviews for various hotels. Nodes represent users and hotels, and directed edges reflect user reviews toward hotels. Each edge is labeled as either normal or abnormal. The meta-path selected is "UHU", with 'U' indicating a user and 'H' indicating a hotel. The relationships include 'review' and its inverse. This dataset contains 10.27% of edges that are labeled as anomalous.
+This dataset can be obtained from [2]. It captures user reviews for various hotels. Nodes represent users and hotels, and directed edges reflect user reviews toward hotels. Each edge is labeled as either normal or abnormal. The meta-path selected is "UHU", with 'U' indicating a user and 'H' indicating a hotel. The relationships include 'review' and its inverse. This dataset contains 10.27% of edges that are labeled as anomalous.
 
 ## Amazon
 
-The dataset can be obtained from the url[3] and contains user reviews of items on the Amazon platform. Nodes represent users and items, while directed edges denote user reviews of items. We use the meta-path "UIU", where 'U' denotes a user and 'I' denotes an item. The relationships include 'review' and its inverse.
+The dataset can be obtained from [3]. It contains user reviews of items on the Amazon platform. Nodes represent users and items, while directed edges denote user reviews of items. We use the meta-path "UIU", where 'U' denotes a user and 'I' denotes an item. The relationships include 'review' and its inverse.
 
 ## Data preprocessing
 
