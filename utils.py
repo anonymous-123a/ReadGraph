@@ -21,7 +21,7 @@ def args_parser():
     parser.add_argument('--train_ratio', type=float, default=0.8, help='')
     parser.add_argument('--anomaly_ratio', type=float, default=0.1, help='')
     parser.add_argument('--snap_size', type=int, default=2000, help='')
-    parser.add_argument('--data_index', type=int, default=10, help='')
+    parser.add_argument('--data_index', type=int, default=0, help='')
     parser.add_argument('--seed', type=int, default=2020, help='')
     parser.add_argument('--anomaly_per_test', type=float, default=0.15, help='')
     parser.add_argument('--ano4test', type=bool, default=False, help='')
