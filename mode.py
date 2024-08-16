@@ -46,7 +46,7 @@ class Model(nn.Module):
         time4 = time.time()
         print(f'model relational_subgraph_encoding time:{time4-time3}')
 
-        predict2, sim_cs, zloss = self.landmark_matching(R_graph_embeddings_edges = R_graph_embeddings_edges, edges_embeddings = edges_embeddings, istest=istest)#显存基本没变17812
+        predict2, _, zloss = self.landmark_matching(R_graph_embeddings_edges = R_graph_embeddings_edges, edges_embeddings = edges_embeddings, istest=istest)#显存基本没变17812
 
         predict2 = nn.Sigmoid()(predict2)
         time5 = time.time()
