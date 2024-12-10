@@ -1,8 +1,8 @@
-# ExpGraph
+# ReadGraph
 
-# The code for ExpGraph
+# The code for ReadGraph
 
-This repo contains the source code for the ExpGraph model.
+This repo contains the source code for the ReadGraph model.
 
 ## programming language
 
@@ -43,7 +43,7 @@ The dataset can be obtained from [3]. It contains user reviews of items on the A
 
 Since the Digg and Amazon datasets do not include labels for anomalous edges, we follow the way outlined in [1] by randomly injecting anomalous labels to 10% of the edges in these two datasets for the training set. Given that real-world anomalies are relatively rare, the remaining edges in these datasets are considered normal. The Yelp dataset, however, already contains labeled anomalous edges, so no additional injection was performed. For evaluation purposes, we maintain the original anomalies in the training set while additionally adjusting the anomaly percentage in the testing set to 5%, as specified in [1]. To achieve this in the Yelp dataset, we randomly remove some of the originally labeled anomalous edges to adjust the anomaly percentage to 5%.
 
-## How to run the code for ExpGraph
+## How to run the code for ReadGraph
 
 ```
 python main.py --dataset=yelp
